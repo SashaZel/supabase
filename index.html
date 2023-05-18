@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Supabase</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__logo-container">
+          <img
+            src="assets/img/header__logo.png"
+            alt="Supabase logo"
+            class="header__logo"
+          />
+          <button
+            class="header__hamb-icon header__hamb-icon_open"
+            id="navToggle"
+          ></button>
+        </div>
+        <nav class="header__nav" id="navMenu">
+          <ul class="header__nav-list">
+            <li class="header__nav-el">
+              <span class="header__nav-text">Product</span>
+              <img
+                src="assets/img/header__icon.svg"
+                alt="icon"
+                class="header__nav-icon"
+              />
+            </li>
+            <li class="header__nav-el">
+              <span class="header__nav-text">Developers</span>
+              <img
+                src="assets/img/header__icon.svg"
+                alt="icon"
+                class="header__nav-icon"
+              />
+            </li>
+            <li class="header__nav-el">
+              <span class="header__nav-text">Beta</span>
+            </li>
+            <li class="header__nav-el">
+              <span class="header__nav-text">Pricing</span>
+            </li>
+          </ul>
+          <div class="header__action">
+            <button class="button button_green header__button">
+              Start your project
+            </button>
+            <button class="button button_transparent header__button">
+              Sign in
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__left">
+          <div class="hero__miniheader">
+            <div class="icon-box__container">
+              <img src="assets/img/hero__miniheader-logo.svg" alt="icon" class="icon-box__icon"/>
+            </div>
+            <div class="hero__miniheader-text">Storage</div>
+          </div>
+          <h1 class="hero__h1">Store and serve <br /> any type of digital content</h1>
+          <p class="hero__text">
+            An open source Object store service with unlimited scalability, for<br />
+            any file type.
+          </p>
+          <p class="hero__text">
+            With custom policies and permissions that are familiar and easy to<br />
+            implement.
+          </p>
+          <button class="button button_green hero__button">Start a project</button>
+        </div>
+        <div class="hero__rigth">
+          <img
+            src="assets/img/hero__right-poster.png"
+            alt="Supabase ad poster"
+            class="hero__poster"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Feature-1 -->
+    <section class="feature-1">
+      <div class="container feature-1__container">
+        <article class="feature-1__column">
+          <div class="feature-1__column-miniheader">
+            <div class="feature-1__icon-box icon-box__container">
+              <img
+                src="assets/img/hero__icon-1.svg"
+                alt="icon"
+                class="icon-box__icon"
+              />
+            </div>
+            <div class="feature-1__icon-box">
+              <img src="assets/img/hero__icon-2.svg" alt="icon" />
+            </div>
+            <div class="feature-1__icon-box icon-box__container">
+              <img
+                src="assets/img/hero__icon-3.svg"
+                alt="icon"
+                class="icon-box__icon"
+              />
+            </div>
+            <div class="feature-1__icon-box">
+              <img src="assets/img/hero__icon-2.svg" alt="icon" />
+            </div>
+            <div class="feature-1__icon-box icon-box__container">
+              <img
+                src="assets/img/hero__icon-4.svg"
+                alt="icon"
+                class="icon-box__icon"
+              />
+            </div>
+          </div>
+          <h4>Interoperable</h4>
+          <p class="feature-1__column-p">
+            Integrates well with the rest of Supabase ecosystem, including Auth
+            and Postgres.
+          </p>
+        </article>
+        <article class="feature-1__column">
+          <div class="feature-1__column-miniheader">
+            <div class="feature-1__icon-box">
+              <img src="assets/img/hero__icon-5.svg" alt="icon" />
+            </div>
+          </div>
+          <h4>Lightning fast</h4>
+          <p class="feature-1__column-p">
+            Thin API server layer that leverages Postgres' permissions and
+            performance.
+          </p>
+        </article>
+        <article class="feature-1__column">
+          <div class="feature-1__column-miniheader">
+            <div class="feature-1__icon-box">
+              <img src="assets/img/hero__icon-6.svg" alt="icon" />
+            </div>
+          </div>
+          <h4>Dependable</h4>
+          <p class="feature-1__column-p">
+            Enterprise-level scalability and durability.
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- Feature-2 -->
+    <section class="feature-2">
+      <div class="container">
+        <div class="feature-2__header">
+          <h2 class="feature-2__header-el">
+            Sleek dashboard for managing your media
+          </h2>
+          <h4 class="feature-2__header-el feature-2__header-el_grey">
+            A complete Object Explorer so that any of your team can use.
+          </h4>
+          <p class="feature-2__header-el feature-2__header-el_grey">
+            Drag and drop uploading, moving objects, and multiple object
+            selection. As easy as working on your desktop.
+          </p>
+        </div>
+      </div>
+      <div class="feature-2__container container">
+        <div class="feature-2__left">
+          <nav class="feature__nav">
+            <ul class="feature__nav-container">
+              <li class="feature__nav-el feature__nav-el_active">
+                <a href="#">File previews</a>
+              </li>
+              <li class="feature__nav-el">
+                <a href="#">Column view</a>
+              </li>
+              <li class="feature__nav-el">
+                <a href="#">List view</a>
+              </li>
+              <li class="feature__nav-el">
+                <a href="#">Multi select actions</a>
+              </li>
+              <li class="feature__nav-el">
+                <a href="#">Path navigator</a>
+              </li>
+            </ul>
+          </nav>
+          <img
+            src="assets/img/feature-2__left-1.png"
+            alt="Supabase feature showbox"
+          />
+        </div>
+        <div class="feature-2__right">
+          <h3>File previews</h3>
+          <p class="feature-2__p-large">
+            Preview any media type, including video and audio.
+          </p>
+          <h3 class="feature-2__header-2">Check out our example app</h3>
+          <a href="#">
+            <div class="feature-2__card">
+              <h4 class="feature-2__card-header">Profile management example</h4>
+              <p class="feature-2__card-p">
+                Update a user account with public profile information, including
+                uploading a profile image.
+              </p>
+              <div class="feature-2__card-footer">
+                <span class="feature-2__card-footer-info">Created by:</span>
+                <img
+                  src="assets/img/feature-2__card-icon-1.png"
+                  alt="icon"
+                  class="feature-2__card-icon"
+                />
+                <span class="feature-2__card-footer-info">Supabase</span>
+              </div>
+            </div>
+          </a>
+          <div class="feature-2__card-2">
+            <a href="#" class="feature-2__github-link">
+              <div class="feature-2__card-2-header">
+                <p class="feature-2__p-small">nextjs-ts-user-management</p>
+                <img
+                  src="assets/img/feature-2__github-icon.svg"
+                  alt="icon"
+                  class="feature-2__github-icon"
+                />
+              </div>
+            </a>
+            <button class="button button_blue feature-2__button-container">
+              <img
+                src="assets/img/feature-2__button-icon.png"
+                alt="icon"
+                class="feature-2__button-icon"
+              />
+              <span class="feature-2__button-text">Deploy</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Feature-3 -->
+    <section class="feature-3">
+      <div class="container feature-3__container">
+        <div class="container__left-col">
+          <h3>Simple and convenient APIs</h3>
+          <p class="feature-3__p1">
+            Built from the ground-up for interoperable authentication.
+          </p>
+          <p class="feature-3__p2">
+            Fast and easy to implement using our powerful library clients. Asset
+            optimization and image transformation coming soon!
+          </p>
+          <div class="feature-3__cards-container">
+            <div class="feature-3__card">
+              <img
+                src="assets/img/feature-3_icon-1.svg"
+                alt="icon"
+                class="feature-3__card-logo"
+              />
+              <h4 class="feature-3__card-h">CDN integration</h4>
+              <p class="feature-3__card-p">
+                Serve from the edge to reduce latency.
+              </p>
+              <button class="button feature-3__button">Coming soon</button>
+            </div>
+            <div class="feature-3__card">
+              <img
+                src="assets/img/feature-3_icon-2.svg"
+                alt="icon"
+                class="feature-3__card-logo"
+              />
+              <h4 class="feature-3__card-h">
+                Auto transformation & optimisation
+              </h4>
+              <p class="feature-3__card-p">
+                Resize and compress your media before you serve it.
+              </p>
+              <button class="button feature-3__button">Coming soon</button>
+            </div>
+          </div>
+        </div>
+        <div class="container__right-col">
+          <nav class="feature__nav">
+            <ul class="feature__nav-container">
+              <li class="feature__nav-el feature__nav-el_active">
+                <a href="#">Upload a file</a>
+              </li>
+              <li class="feature__nav-el">
+                <a href="#">Download a file</a>
+              </li>
+              <li class="feature__nav-el">
+                <a href="#">List files</a>
+              </li>
+              <li class="feature__nav-el">
+                <a href="#">Move and rename files</a>
+              </li>
+              <li class="feature__nav-el">
+                <a href="#">Delete files</a>
+              </li>
+            </ul>
+          </nav>
+          <img
+            src="assets/img/feature-3__dummy-1.png"
+            alt="Supabase feature demonstration"
+            class="feature__dummy-pic"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Feature-4 -->
+    <section class="feature-4">
+      <div class="container feature-4__container">
+        <div class="container__left-col">
+          <h2>
+            Integrates natively<br />
+            with Supabase Auth
+          </h2>
+          <p class="feature-4__p-1">
+            Using Postgres Row Level Security to create Object access rules.
+          </p>
+          <p class="feature-4__p-2">
+            Storage Authorization is built around Postgres so that you can use
+            any combination of SQL, Postgres functions, and even your own
+            metadata to write policies.
+          </p>
+          <div class="feature-4__action-link">
+            <img
+              src="assets/img/feature-4__action-icon.svg"
+              alt="icon"
+              class="feature-4__action-icon"
+            />
+            <a href="#" class="feature-4__action-text">Explore documentation</a>
+          </div>
+        </div>
+        <article class="container__right-col">
+          <nav class="feature__nav">
+            <ul class="feature__nav-container">
+              <li class="feature__nav-el feature__nav-el_active">
+                <a href="#">Public access to a bucket</a>
+              </li>
+              <li class="feature__nav-el">
+                <a href="#">Public access to a folder</a>
+              </li>
+              <li class="feature__nav-el">
+                <a href="#">Authenticated access to a bucket</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="feature-4__card">
+
+            <img
+            src="assets/img/feature-4__dummy-1.png"
+            alt="Supabase feature demonstration"
+            class="feature__dummy-pic"
+            />
+            <h4 class="feature-4__card-header">Allow public CRUD access to a bucket</h4>
+            <p class="feature-4__card-p">This will allow any user access to the bucket named 'avatars'</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- Action -->
+    <section class="action">
+      <p class="action__header-container">
+        <span class="action__left">Build in a weekend, </span>
+        <span class="action__right">scale to millions</span>
+      </p>
+      <button class="button button_green action__button">
+        Start your project
+      </button>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container footer">
+        <div class="footer__top">
+          <div class="footer__logo-block">
+            <div class="footer__logo-blok-left">
+              <img
+                src="assets/img/footer__logo.png"
+                alt="logo"
+                class="footer__logo"
+              />
+            </div>
+            <div class="footer__logo-block-right">
+              <a href="#" class="footer__logo-link"
+                ><img src="assets/img/footer__twitter-link.svg" alt="logo"
+              /></a>
+              <a href="#" class="footer__logo-link"
+                ><img src="assets/img/footer__github-link.svg" alt="logo"
+              /></a>
+            </div>
+          </div>
+          <nav class="footer__nav">
+            <div class="footer__nav-col">
+              <span class="footer__nav-col-header">Product</span>
+              <a href="#" class="footer__nav-col-link">Database</a>
+              <a href="#" class="footer__nav-col-link">Authentication</a>
+              <a href="#" class="footer__nav-col-link">Storage</a>
+              <a href="#" class="footer__nav-col-link">Functions</a>
+              <a href="#" class="footer__nav-col-link footer__nav-col-link_grey"
+                >Coming soon</a
+              >
+              <a href="#" class="footer__nav-col-link">Pricing</a>
+            </div>
+            <div class="footer__nav-col">
+              <span class="footer__nav-col-header">Resources</span>
+              <a href="#" class="footer__nav-col-link">Support</a>
+              <a href="#" class="footer__nav-col-link">Case Studies</a>
+              <a href="#" class="footer__nav-col-link">System Status</a>
+              <a href="#" class="footer__nav-col-link">Terms of service</a>
+            </div>
+            <div class="footer__nav-col">
+              <span class="footer__nav-col-header">Developers</span>
+              <a href="#" class="footer__nav-col-link">Documentation</a>
+              <a href="#" class="footer__nav-col-link">API Reference</a>
+              <a href="#" class="footer__nav-col-link">Guides</a>
+            </div>
+            <div class="footer__nav-col">
+              <span class="footer__nav-col-header">Company</span>
+              <a href="#" class="footer__nav-col-link">Blog</a>
+              <a href="#" class="footer__nav-col-link">Open Source</a>
+              <a href="#" class="footer__nav-col-link">Humans.txt</a>
+              <a href="#" class="footer__nav-col-link">Lawyers.txt</a>
+            </div>
+          </nav>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__copyrights">© Supabase Inc</div>
+          <div class="footer__dark-switcher">
+            <img src="assets/img/sun.svg" alt="icon" class="footer__dark-el" />
+            <img
+              src="assets/img/footer__dummy-dark-switcher.png"
+              alt="icon"
+              class="footer__dark-el"
+            />
+            <img src="assets/img/moon.svg" alt="icon" class="footer__dark-el" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/script.js" defer></script>
+  </body>
+</html>
